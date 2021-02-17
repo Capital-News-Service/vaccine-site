@@ -13,7 +13,7 @@
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
-  <!-- Bootstrap CSS -->
+  <!-- FontAwesome JS Call -->
   <script src="https://kit.fontawesome.com/2ce7dad615.js" crossorigin="anonymous"></script>
 
 
@@ -85,31 +85,30 @@
 
     <br/><h2> Transition</h2>
 
-    <!-- ACCORDION START -->
 
+  <!-- MARYLAND ACCORDION START -->
       <div class="row">
         <div class="col-lg-9 mx-auto">
-          <!-- Accordion -->
           <div id="accordionMaryland" class="accordion shadow">
 
-            <!-- Accordion Item #0-->
+            <!-- Maryland Accordion Item-->
             <div class="card">
-              <div id="headingZero" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseZero" aria-expanded="true" aria-controls="collapseZero" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Maryland Vaccine Information</a></h6>
+              <div id="headingMaryland" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseMaryland" aria-expanded="true" aria-controls="collapseMaryland" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Maryland Vaccine Information</a></h6>
               </div>
-              <div id="collapseZero" aria-labelledby="headingZero" data-parent="#accordionMaryland" class="collapse show">
+              <div id="collapseMaryland" aria-labelledby="headingMaryland" data-parent="#accordionMaryland" class="collapse show">
                 <div class="card-body p-5">
                   <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 
                   <br><p><strong>Where to get vaccinated</strong><br>
                   <em>Click on a location for more info</em></p>
 
-
+                <!-- SMALL ACCORDION FOR VAX SITES START -->
                   <div id="accordion" class="accordion">
-
+                            <!-- Smal accordion for vax sites item #1-->
                             <div class="card-header-small collapsed" data-toggle="collapse" href="#collapseGiant">
                                 <a class="card-title">
-                                    Item 1
+                                    Giant
                                 </a>
                             </div>
                             <div id="collapseGiant" class="card-body collapse" data-parent="#accordion" >
@@ -119,6 +118,7 @@
                                 </p>
                             </div>
                             <hr>
+                            <!-- Smal accordion for vax sites item #2-->
                             <div class="card-header-small collapsed" data-toggle="collapse" href="#collapseCVS">
                                 <a class="card-title">
                                     CVS
@@ -131,17 +131,87 @@
                                 </p>
                             </div>
 
-
                           </div>
-
-
-
-
-
-
+                          <!-- SMALL ACCORDION FOR VAX SITES END -->
                 </div>
               </div>
             </div>
+
+         </div>
+        </div>
+      </div>
+    <!-- MARYLAND ACCORDION END -->
+
+
+    <h2> Transition</h2>
+
+    <!-- ACCORDION START -->
+
+      <div class="row">
+        <div class="col-lg-9 mx-auto">
+          <!-- Accordion -->
+          <div id="accordionCounties" class="accordion shadow">
+
+            <!-- Accordion item 1 -->
+            <div class="card">
+              <div id="headingOne" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #1</a></h6>
+              </div>
+              <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionCounties" class="collapse">
+                <div class="card-body p-5">
+                  <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion item 2 -->
+            <div class="card">
+              <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #2</a></h6>
+              </div>
+              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionCounties" class="collapse">
+                <div class="card-body p-5">
+                  <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion item 3 -->
+            <div class="card">
+              <div id="headingThree" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #3</a></h6>
+              </div>
+              <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionCounties" class="collapse">
+                <div class="card-body p-5">
+                  <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion item 4 -->
+            <div class="card">
+              <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #4</a></h6>
+              </div>
+              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionCounties" class="collapse">
+                <div class="card-body p-5">
+                  <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Accordion item 5 -->
+            <div class="card">
+              <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #5</a></h6>
+              </div>
+              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionCounties" class="collapse">
+                <div class="card-body p-5">
+                  <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                </div>
+              </div>
+            </div>
+
 
          </div>
         </div>
@@ -156,14 +226,14 @@
       <div class="row">
         <div class="col-lg-9 mx-auto">
           <!-- Accordion -->
-          <div id="accordionExample" class="accordion shadow">
+          <div id="accordionFAQ" class="accordion shadow">
 
             <!-- Accordion item 1 -->
             <div class="card">
               <div id="headingOne" class="card-header bg-white shadow-sm border-0">
                 <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #1</a></h6>
               </div>
-              <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse">
+              <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
                   <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
@@ -175,7 +245,7 @@
               <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
                 <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #2</a></h6>
               </div>
-              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
                   <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
@@ -187,7 +257,7 @@
               <div id="headingThree" class="card-header bg-white shadow-sm border-0">
                 <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #3</a></h6>
               </div>
-              <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
+              <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
                   <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
@@ -199,7 +269,7 @@
               <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
                 <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #4</a></h6>
               </div>
-              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
                   <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
@@ -211,83 +281,7 @@
               <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
                 <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #5</a></h6>
               </div>
-              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
-                <div class="card-body p-5">
-                  <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-              </div>
-            </div>
-
-
-         </div>
-        </div>
-      </div>
-
-    <!-- ACCORDION END -->
-
-    <h2> Transition</h2>
-
-    <!-- ACCORDION START -->
-
-      <div class="row">
-        <div class="col-lg-9 mx-auto">
-          <!-- Accordion -->
-          <div id="accordionExample" class="accordion shadow">
-
-            <!-- Accordion item 1 -->
-            <div class="card">
-              <div id="headingOne" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #1</a></h6>
-              </div>
-              <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionExample" class="collapse">
-                <div class="card-body p-5">
-                  <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion item 2 -->
-            <div class="card">
-              <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #2</a></h6>
-              </div>
-              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
-                <div class="card-body p-5">
-                  <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion item 3 -->
-            <div class="card">
-              <div id="headingThree" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #3</a></h6>
-              </div>
-              <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionExample" class="collapse">
-                <div class="card-body p-5">
-                  <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion item 4 -->
-            <div class="card">
-              <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #4</a></h6>
-              </div>
-              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
-                <div class="card-body p-5">
-                  <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                </div>
-              </div>
-            </div>
-
-            <!-- Accordion item 5 -->
-            <div class="card">
-              <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #5</a></h6>
-              </div>
-              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionExample" class="collapse">
+              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
                   <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
