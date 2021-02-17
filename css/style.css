@@ -1,0 +1,189 @@
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
+
+/* This is a single-line comment */
+
+/* paragraph text */
+/* Regular 400 Poppins */
+.p {
+font-family: "Poppins," sans-serif;
+font-weight: 400;
+font-size: 20px;
+}
+
+/* HEADLINE */
+/* Extra-Bold 800 Poppins */
+h1 {
+font-family: "Poppins," sans-serif;
+font-weight: 800;
+text-align: center;
+font-size: 100px;
+}
+
+/* TRANSITIONS BETWEEN ACCORDIONS */
+/* Extra-Bold 800 Poppins - smaller fonts */
+h2 {
+font-family: "Poppins," sans-serif;
+font-weight: 800;
+text-align: center;
+}
+
+/* COUNTY HEADER */
+/* Semi-Bold 600 */
+h3 {
+font-family: "Poppins," sans-serif;
+font-weight: 600;
+}
+
+/* UPDATED LAST - probably change from outside of headline */
+h4 {
+font-style: italic;
+}
+
+
+/* ACCORDIONS */
+
+/* Semi-Bold 600 */
+.accordion-header {
+font-family: "Poppins," sans-serif;
+font-weight: 600;
+}
+
+/* paragraph text of drop downs */
+/* Regular 400 Poppins */
+.accordion-body {
+font-family: "Poppins," sans-serif;
+font-weight: 400;
+}
+
+/* TWITTER FEED */
+.twitter-timeline {
+  align-content: center;
+}
+
+
+
+/* Nav Bar and footer styles */
+
+#nav-logo {
+  width:100%;
+  max-width:1000px;
+  margin:0 auto;
+}
+
+#logo {
+  width:250px;
+}
+
+.footer {
+  background: #000;
+  color:#fff;
+  height:70px;
+  min-height: 70px;
+  margin-top:25px;
+  padding-top:25px;
+  text-align:center;
+}
+
+.bg-dark {
+  background-color: #000 !important;
+}
+
+
+
+/* ADAM and TEMPLATE STYLES
+*
+* ==========================================
+* CUSTOM UTIL CLASSES
+* ==========================================
+*
+*/
+/* Horizontal line */
+.collapsible-link::before {
+  content: '';
+  width: 14px;
+  height: 2px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 1px);
+  right: 1rem;
+  display: block;
+  transition: all 0.3s;
+}
+
+/* Vertical line */
+.collapsible-link::after {
+  content: '';
+  width: 2px;
+  height: 14px;
+  background: #333;
+  position: absolute;
+  top: calc(50% - 7px);
+  right: calc(1rem + 6px);
+  display: block;
+  transition: all 0.3s;
+}
+
+.collapsible-link[aria-expanded='true']::after {
+  transform: rotate(90deg) translateX(-1px);
+}
+
+.collapsible-link[aria-expanded='true']::before {
+  transform: rotate(180deg);
+}
+
+
+
+/* Twitter and Facebook icon styles =========== */
+
+#social-icons {
+  width:100%;
+  text-align:center;
+}
+
+.icon-twitter, .icon-facebook {
+  margin-right:10px;
+  font-size:2em;
+  color:#991b1e;
+  cursor: pointer;
+
+}
+
+.icon-twitter:hover, .icon-facebook:hover {
+  color:#cdcdcd;
+
+}
+
+
+@font-face {
+  font-family: 'icons';
+  src:url('../icons/icons.eot?fylnot');
+  src:url('../icons/icons.eot?#iefixfylnot') format('embedded-opentype'),
+    url('../icons/icons.woff?fylnot') format('woff'),
+    url('../icons/icons.ttf?fylnot') format('truetype'),
+    url('../icons/icons.svg?fylnot#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  font-family: 'icons';
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.icon-twitter:before {
+  content: "\e621";
+}
+.icon-facebook:before {
+  content: "\e620";
+}
