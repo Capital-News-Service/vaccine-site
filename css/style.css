@@ -71,14 +71,11 @@ font-weight: 400;
 
 /* Nav Bar and footer styles */
 
-#nav-logo {
-  width:100%;
-  max-width:1000px;
-  margin:0 auto;
-}
 
 #logo {
   width:250px;
+  margin-left:25px;
+  margin-right:25px;
 }
 
 .footer {
