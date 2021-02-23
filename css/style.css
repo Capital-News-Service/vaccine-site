@@ -53,12 +53,12 @@ font-family: 'Poppins', sans-serif;
 font-weight: 400;
 }
 
-
 /* ADAM and TEMPLATE STYLES
 
-
 /* Nav Bar and footer styles */
-
+.nav-item.nav-link{
+  font-family: 'Poppins', sans-serif !important;
+}
 
 #logo {
   width:250px;
