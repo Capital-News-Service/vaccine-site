@@ -1,10 +1,7 @@
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,800;1,400;1,600;1,800&display=swap" rel="stylesheet">
-
 /* paragraph text */
 /* Regular 400 Poppins */
-.p {
-font-family: "Poppins," sans-serif;
+p {
+font-family: 'Poppins', sans-serif;
 font-weight: 400;
 font-size: 20px;
 }
@@ -12,7 +9,7 @@ font-size: 20px;
 /* HEADLINE */
 /* Extra-Bold 800 Poppins */
 h1 {
-font-family: "Poppins," sans-serif;
+font-family: 'Poppins', sans-serif;
 font-weight: 800;
 text-align: center;
 font-size: 85px;
@@ -21,7 +18,7 @@ font-size: 85px;
 /* TRANSITIONS BETWEEN ACCORDIONS */
 /* Extra-Bold 800 Poppins - smaller fonts */
 h2 {
-font-family: "Poppins," sans-serif;
+font-family: 'Poppins', sans-serif;
 font-weight: 800;
 text-align: center;
 font-size: 30px;
@@ -30,7 +27,7 @@ font-size: 30px;
 /* COUNTY HEADER */
 /* Semi-Bold 600 */
 h3 {
-font-family: "Poppins," sans-serif;
+font-family: 'Poppins', sans-serif;
 font-weight: 600;
 }
 
@@ -45,14 +42,14 @@ font-size: 13px;
 
 /* Semi-Bold 600 */
 .accordion-header {
-font-family: "Poppins," sans-serif;
+font-family: 'Poppins', sans-serif;
 font-weight: 600;
 }
 
 /* paragraph text of drop downs */
 /* Regular 400 Poppins */
 .accordion-body {
-font-family: "Poppins," sans-serif;
+font-family: 'Poppins', sans-serif;
 font-weight: 400;
 }
 
@@ -83,8 +80,6 @@ font-weight: 400;
   background-color: #000 !important;
 }
 
-
-
 /* STYLES FOR ACCORDIONS */
 
 /* Maryland vaccine info accordion */
@@ -94,10 +89,34 @@ font-weight: 400;
 }*/
 
 .card-body.p-5 {
-  background-color: #fae255;
+  background-color: #ffffff;
 }
 
-/* Main Accordion styles */
+#headingMaryland.card-header.bg-white.shadow-sm.border-0{
+  background-color: #FAE255 !important;
+}
+
+/* County Accordion styles */
+/*AA County header*/
+#headingAACounty.card-header.bg-white.shadow-sm.border-0{
+  background-color: #FAE255 !important;
+}
+/*Balitmore City header*/
+#headingBaltCity.card-header.bg-white.shadow-sm.border-0{
+  background-color: #FAE255 !important;
+}
+/*Balitmore County header*/
+#headingBaltCounty.card-header.bg-white.shadow-sm.border-0{
+  background-color: #FAE255 !important;
+}
+/*Montgomery County header*/
+#headingMontCounty.card-header.bg-white.shadow-sm.border-0{
+  background-color: #FAE255 !important;
+}
+/*PG County header*/
+#headingPGCounty.card-header.bg-white.shadow-sm.border-0{
+  background-color: #FAE255 !important;
+}
 
 /* Horizontal line */
 .collapsible-link::before {
