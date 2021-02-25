@@ -80,6 +80,12 @@ font-weight: 400;
   background-color: #000 !important;
 }
 
+/*button style*/
+.btn-primary{
+  background-color: #FAE255 !important;
+  border-color: #FAE255 !important;
+}
+
 /* STYLES FOR ACCORDIONS */
 
 /* Maryland vaccine info accordion */
@@ -115,6 +121,28 @@ font-weight: 400;
 }
 /*PG County header*/
 #headingPGCounty.card-header.bg-white.shadow-sm.border-0{
+  background-color: #FAE255 !important;
+}
+
+/*FAQ accordion styles*/
+/*question 1 header*/
+#headingFAQ1.card-header.bg-white.shadow-sm.border-0{
+  background-color: #FAE255 !important;
+}
+/*question 2 header*/
+#headingFAQ2.card-header.bg-white.shadow-sm.border-0{
+  background-color: #FAE255 !important;
+}
+/*question 3 header*/
+#headingFAQ3.card-header.bg-white.shadow-sm.border-0{
+  background-color: #FAE255 !important;
+}
+/*question 4 header*/
+#headingFAQ4.card-header.bg-white.shadow-sm.border-0{
+  background-color: #FAE255 !important;
+}
+/*question 5 header*/
+#headingFAQ5.card-header.bg-white.shadow-sm.border-0{
   background-color: #FAE255 !important;
 }
 
