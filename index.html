@@ -66,10 +66,10 @@
  </button>
  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
    <div class="navbar-nav">
-     <a class="nav-item nav-link active" href="#">Get vaccinated in Maryland <span class="sr-only">(current)</span></a>
-     <a class="nav-item nav-link" href="#">County info</a>
-     <a class="nav-item nav-link" href="#">FAQ</a>
-     <a class="nav-item nav-link" href="#">Vaccination data</a>
+     <a class="nav-item nav-link active" href="#vax-md-navbar">Get vaccinated in Maryland <span class="sr-only">(current)</span></a>
+     <a class="nav-item nav-link" href="#county-navbar">County info</a>
+     <a class="nav-item nav-link" href="#faq-navbar">FAQ</a>
+     <a class="nav-item nav-link" href="#vax-data-navbar">Vaccination data</a>
    </div>
  </div>
   </nav>
@@ -92,9 +92,12 @@
 
     <p> The Capital News Service Maryland COVID-19 Vaccine Dashboard is a resource for Marylanders to help navigate the sometimes confusing process of getting vaccinated. Below you will find information about who is currently eligible to be vaccinated and where to sign up for vaccinations in Maryland and the five most populated localities in the state. If you find any incorrect or outdated information on this site, please let us <a href="mailto:amarton@umd.edu" target="_blank" rel="noopener noreferrer">know</a>. </p>
 
-
-    <br/><h2> How to get vaccinated in Maryland </h2>
+    <div id="vax-md-navbar">
+    <br><br/><h2> How to get vaccinated in Maryland (can we cut this?) </h2>
     <br/>
+    <p> This is placeholder: State officials have provided some flexibility to local leaders to establish vaccine rollout guidelines in their county. As a result, some Maryland counties are in different rollout phases from the state. Below we examine who is eligible for a vaccine in Maryland’s most populous localities as well as other county-specific rules and vaccination locations. If you would like us to add your county to this site, please let us <a href="mailto:amarton@umd.edu" target="_blank" rel="noopener noreferrer">know</a>.</p>
+    <br/>
+    </div>
 
   <!-- MARYLAND ACCORDION START -->
       <div class="row">
@@ -104,7 +107,7 @@
             <!-- Maryland Accordion Item-->
             <div class="card">
               <div id="headingMaryland" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseMaryland" aria-expanded="true" aria-controls="collapseMaryland" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Vaccine Information</a></h6>
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseMaryland" aria-expanded="true" aria-controls="collapseMaryland" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Maryland Vaccine Information</a></h6>
               </div>
               <div id="collapseMaryland" aria-labelledby="headingMaryland" data-parent="#accordionMaryland" class="collapse show">
                 <div class="card-body p-5">
@@ -126,10 +129,16 @@
                         </a>
                     </div>
                     <div id="collapseMassVac" class="card-body collapse" data-parent="#accordion" >
-                        <p class="font-weight-light m-0">Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt
-                            aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat
-                            craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                        <p class="font-weight-light m-0">
+                          Baltimore Convention Center
                         </p>
+
+                        <a class="btn btn-primary" href="#" role="button">Link</a>
+                        <button class="btn btn-primary" type="submit">Button</button>
+                        <input class="btn btn-primary" type="button" value="Input">
+                        <input class="btn btn-primary" type="submit" value="Submit">
+                        <input class="btn btn-primary" type="reset" value="Reset">
+
                     </div>
                     <hr>
                             <!-- Smal accordion for vax sites item #2: Giant-->
@@ -167,10 +176,11 @@
       </div>
     <!-- MARYLAND ACCORDION END -->
 
-
-    <br/><h2> How to get vaccinated elsewhere in central Maryland: </h2>
+    <div id="county-navbar">
+    <br><br/><h2> How to get vaccinated elsewhere in central Maryland: </h2>
     <p> State officials have provided some flexibility to local leaders to establish vaccine rollout guidelines in their county. As a result, some Maryland counties are in different rollout phases from the state. Below we examine who is eligible for a vaccine in Maryland’s most populous localities as well as other county-specific rules and vaccination locations. If you would like us to add your county to this site, please let us <a href="mailto:amarton@umd.edu" target="_blank" rel="noopener noreferrer">know</a>.</p>
     <br/>
+  </div>
 
     <!-- ACCORDION START -->
 
@@ -270,34 +280,37 @@
 
     <!-- ACCORDION END -->
 
-    <br/><h2> Frequently asked questions about the COVID-19 vaccine rollout in Maryland </h2>
-    <br/>
 
-    <!-- ACCORDION START -->
+    <div id="faq-navbar">
+    <br><br/><h2> Frequently asked questions about the COVID-19 vaccine rollout in Maryland </h2>
+    <br/>
+  </div>
+
+    <!-- FAQ ACCORDION START -->
 
       <div class="row">
         <div class="col-lg-9 mx-auto">
           <!-- Accordion -->
           <div id="accordionFAQ" class="accordion shadow">
 
-            <!-- Accordion item 1 -->
+            <!-- Accordion item 1: FAQ 1 -->
             <div class="card">
-              <div id="headingOne" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #1</a></h6>
+              <div id="headingFAQ1" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#FAQ1" aria-expanded="false" aria-controls="FAQ1" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #1</a></h6>
               </div>
-              <div id="collapseOne" aria-labelledby="headingOne" data-parent="#accordionFAQ" class="collapse">
+              <div id="FAQ1" aria-labelledby="headingFAQ1" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
                   <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
               </div>
             </div>
 
-            <!-- Accordion item 2 -->
+            <!-- Accordion item 2: faq2 -->
             <div class="card">
-              <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #2</a></h6>
+              <div id="headingFAQ2" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#FAQ2" aria-expanded="false" aria-controls="FAQ2" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #2</a></h6>
               </div>
-              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionFAQ" class="collapse">
+              <div id="FAQ2" aria-labelledby="headingFAQ2" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
                   <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
@@ -306,10 +319,10 @@
 
             <!-- Accordion item 3 -->
             <div class="card">
-              <div id="headingThree" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #3</a></h6>
+              <div id="headingFAQ3" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#FAQ3" aria-expanded="false" aria-controls="FAQ3" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #3</a></h6>
               </div>
-              <div id="collapseThree" aria-labelledby="headingThree" data-parent="#accordionFAQ" class="collapse">
+              <div id="FAQ3" aria-labelledby="headingFAQ3" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
                   <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
@@ -318,10 +331,10 @@
 
             <!-- Accordion item 4 -->
             <div class="card">
-              <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #4</a></h6>
+              <div id="headingFAQ4" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#FAQ4" aria-expanded="false" aria-controls="FAQ4" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #4</a></h6>
               </div>
-              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionFAQ" class="collapse">
+              <div id="FAQ4" aria-labelledby="headingFAQ4" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
                   <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
@@ -330,10 +343,10 @@
 
             <!-- Accordion item 5 -->
             <div class="card">
-              <div id="headingTwo" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #5</a></h6>
+              <div id="headingFAQ5" class="card-header bg-white shadow-sm border-0">
+                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#FAQ5" aria-expanded="false" aria-controls="FAQ5" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #5</a></h6>
               </div>
-              <div id="collapseTwo" aria-labelledby="headingTwo" data-parent="#accordionFAQ" class="collapse">
+              <div id="FAQ5" aria-labelledby="headingFAQ5" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
                   <p class="font-weight-light m-0">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
@@ -346,9 +359,14 @@
       </div>
 
     <!-- ACCORDION END -->
-
-    <br/><h2> Vaccination Data </h2>
+    <div id="vax-data-navbar">
+    <br><br/><h2> Vaccination Data (MOCK) </h2>
     <br/>
+    </div>
+
+    <iframe title="COVID-19 breakout searches by state" aria-label="Map" id="datawrapper-chart-60MCf" src="https://datawrapper.dwcdn.net/60MCf/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="545"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+    </script>
+
 
   </div>
   <!-- close container -->
@@ -358,7 +376,7 @@
 
   <!-- Footer-->
   <div class="footer">
-          <p>Copyright 2021 Captial News Service</p>
+          <p>Copyright 2021 © Captial News Service</p>
   </div>
   <!-- end footer-->
 

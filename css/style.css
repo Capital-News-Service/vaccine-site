@@ -152,7 +152,14 @@ font-weight: 400;
   transform: rotate(180deg);
 }
 
+/* buttons */
+.button {
+  color: #990000;
+}
 
+.btn btn-primary {
+  color: #990000;
+}
 
 
 /* Small Collapse styles - vax sites */
