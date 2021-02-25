@@ -68,7 +68,7 @@
    <div class="navbar-nav">
      <a class="nav-item nav-link active" href="#vax-md-navbar">Get vaccinated in Maryland <span class="sr-only">(current)</span></a>
      <a class="nav-item nav-link" href="#county-navbar">County info</a>
-     <a class="nav-item nav-link" href="#faq-navbar">FAQ</a>
+     <a class="nav-item nav-link" href="#faq-navbar">FAQs</a>
      <a class="nav-item nav-link" href="#vax-data-navbar">Vaccination data</a>
    </div>
  </div>
@@ -93,9 +93,9 @@
     <p> The Capital News Service Maryland COVID-19 Vaccine Dashboard is a resource for Marylanders to help navigate the sometimes confusing process of getting vaccinated. Below you will find information about who is currently eligible to be vaccinated and where to sign up for vaccinations in Maryland and the five most populated localities in the state. If you find any incorrect or outdated information on this site, please let us <a href="mailto:amarton@umd.edu" target="_blank" rel="noopener noreferrer">know</a>. </p>
 
     <div id="vax-md-navbar">
-    <br><br/><h2> How to get vaccinated in Maryland (can we cut this?) </h2>
+    <br><br/><h2> How to get vaccinated in Maryland:</h2>
     <br/>
-    <p> This is placeholder: State officials have provided some flexibility to local leaders to establish vaccine rollout guidelines in their county. As a result, some Maryland counties are in different rollout phases from the state. Below we examine who is eligible for a vaccine in Maryland’s most populous localities as well as other county-specific rules and vaccination locations. If you would like us to add your county to this site, please let us <a href="mailto:amarton@umd.edu" target="_blank" rel="noopener noreferrer">know</a>.</p>
+
     <br/>
     </div>
 
@@ -107,7 +107,7 @@
             <!-- Maryland Accordion Item-->
             <div class="card">
               <div id="headingMaryland" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#collapseMaryland" aria-expanded="true" aria-controls="collapseMaryland" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Maryland Vaccine Information</a></h6>
+                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#collapseMaryland" aria-expanded="true" aria-controls="collapseMaryland" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Maryland Vaccine Information</a></h6>
               </div>
               <div id="collapseMaryland" aria-labelledby="headingMaryland" data-parent="#accordionMaryland" class="collapse show">
                 <div class="card-body p-5">
@@ -120,56 +120,135 @@
                   <em>Click on a location for more info</em></p>
 
                 <!-- SMALL ACCORDION FOR VAX SITES START -->
-                  <div id="accordion" class="accordion">
-                    <!-- Smal accordion for vax sites item #1: Mass Vacc-->
-                    <div class="card-header-small collapsed" data-toggle="collapse" href="#collapseMassVac">
+                  <div id="smallaccordion" class="smallaccordion">
+                    <!-- Smal accordion for vax sites item #1: Baltimore convention center-->
+                    <div id="bltconvention" class="card-header-small collapsed" data-toggle="collapse"  href="#collapsebltconvention">
                         <a class="card-title">
-                            Mass Vaccination Sites
+                            Baltimore Convention Center
                         </a>
                     </div>
-                    <div id="collapseMassVac" class="card-body collapse" data-parent="#accordion" >
-                        <p class="font-weight-light m-0">
+                    <div id="collapsebltconvention" class="card-body collapse" data-parent="#smallaccordion" >
+                        <!--<p class="font-weight-light m-0">
                           Baltimore Convention Center
-                        </p>
-                        <p> 1 West Pratt St., Baltimore, MD 2120 </p>
-                        <a class="btn btn-primary" href="#" role="button">Information</a>
+                        </p> -->
+                        <p> To request an appointment, complete the <a href="https://app.smartsheet.com/b/form/63885363fb6a4f6696fc516402f785b4" target="_blank" rel="noopener noreferrer"> appointment request form</a>. When you are eligible and an appointment is available, you will be contacted and told how to schedule an appointment. The vaccination clinic takes place Monday through Saturday. You must have an appointment and come at your scheduled time. Walk-ins are not accepted.</p>
+                        <p> Call 443-462-5511 for more information Monday through Friday, 9 a.m. to 4:30 p.m. </p>
+                        <a class="btn btn-primary" href="#" role="button">Directions</a>
+                        <a class="btn btn-primary" href="#" role="button">More Information</a>
                         <a class="btn btn-primary" href="#" role="button">Request appointment</a>
-                        <a class="btn btn-primary" href="#" role="button">Call</a>
 
 
                     </div>
                     <hr>
-                            <!-- Smal accordion for vax sites item #2: Giant-->
-                            <div class="card-header-small collapsed" data-toggle="collapse" href="#collapseGiant">
+                            <!-- Small accordion for vax sites item #2: SIX flags-->
+                            <div class="card-header-small collapsed" data-toggle="collapse" href="#collapseSixFlags">
                                 <a class="card-title">
-                                    Giant
+                                    Six Flags
                                 </a>
                             </div>
-                            <div id="collapseGiant" class="card-body collapse" data-parent="#accordion" >
+                            <div id="collapseSixFlags" class="card-body collapse" data-parent="#smallaccordion" >
                               <p class="font-weight-light m-0">
-                                Baltimore Convention Center
-                              </p>
-                              <p> 1 West Pratt St., Baltimore, MD 2120</p>
-                              <a class="btn btn-primary" href="#" role="button">Information</a>
+                                To check the availability of appointments at the Six Flags mass vaccination center, click <a href="http://massvax.maryland.gov/" target="_blank" rel="noopener noreferrer"> here</a>. You will be asked to enter your eligibility information and zip code. If appointments are currently available at this location, you can choose and book a time slot for your first and second vaccination.</p> <br>
+
+                              <a class="btn btn-primary" href="#" role="button">Directions</a>
+                              <a class="btn btn-primary" href="#" role="button">More Information</a>
                               <a class="btn btn-primary" href="#" role="button">Request appointment</a>
-                              <a class="btn btn-primary" href="#" role="button">Call</a>
 
                             </div>
                             <hr>
-                            <!-- Small accordion for vax sites item #3: CVS-->
+                            <!-- Small accordion for vax sites item #4: CVS-->
                             <div class="card-header-small collapsed" data-toggle="collapse" href="#collapseCVS">
                                 <a class="card-title">
                                     CVS
                                 </a>
                             </div>
-                            <div id="collapseCVS" class="card-body collapse" data-parent="#accordion" >
+                            <div id="collapseCVS" class="card-body collapse" data-parent="#smallaccordion" >
                               <p class="font-weight-light m-0">
-                                Baltimore Convention Center
-                              </p>
-                              <p> 1 West Pratt St., Baltimore, MD 2120 </p>
-                              <a class="btn btn-primary" href="#" role="button">Information</a>
+                                To check the availability of appointments visit <a href="https://www.cvs.com/vaccine/intake/store/cvd-schedule?icid=coronavirus-lp-vaccine-sd-statetool" target="_blank" rel="noopener noreferrer"> this site</a>. You may need to wait several minutes or longer on the web page before you are able to proceed. Proceed through the CVS vaccine screening process to schedule your vaccine appointments.</p><br>
+
+                              <a class="btn btn-primary" href="#" role="button">Directions</a>
+                              <a class="btn btn-primary" href="#" role="button">More Information</a>
                               <a class="btn btn-primary" href="#" role="button">Request appointment</a>
-                              <a class="btn btn-primary" href="#" role="button">Call</a>
+                            </div>
+                            <hr>
+
+                            <!-- Small accordion for vax sites item #4: Giant-->
+                            <div class="card-header-small collapsed" data-toggle="collapse" href="#collapseGiant">
+                                <a class="card-title">
+                                    Giant
+                                </a>
+                            </div>
+                            <div id="collapseGiant" class="card-body collapse" data-parent="#smallaccordion" >
+                              <p class="font-weight-light m-0">
+                                To check the availability of appointments click <a href="https://giantfoodsched.rxtouch.com/rbssched/program/covid19/Patient/Advisory" target="_blank" rel="noopener noreferrer"> here</a>. Fill out Giant’s informed consent form which you’ll be emailed or you can fill out a hard copy in-person on the day of. Come to Giant at your scheduled day and time, bring your driver’s license (for age confirmation), healthcare professional ID/work badge (proof of Phase 1 status for employment), and prescription insurance card.</p><br>
+
+                              <a class="btn btn-primary" href="#" role="button">Directions</a>
+                              <a class="btn btn-primary" href="#" role="button">More Information</a>
+                              <a class="btn btn-primary" href="#" role="button">Request appointment</a>
+                            </div>
+                            <hr>
+
+                            <!-- Small accordion for vax sites item #5: Martins-->
+                            <div class="card-header-small collapsed" data-toggle="collapse" href="#collapseMartins">
+                                <a class="card-title">
+                                    Martin's
+                                </a>
+                            </div>
+                            <div id="collapseMartins" class="card-body collapse" data-parent="#smallaccordion" >
+                              <p class="font-weight-light m-0">
+                                To check the availability of appointments, visit <a href="https://martinssched.rxtouch.com/rbssched/program/covid19/Patient/Advisory" target="_blank" rel="noopener noreferrer"> this website</a>. Enter your ZIP code, and it will tell you locations with available appointments within 30 miles.</p><br>
+
+                              <a class="btn btn-primary" href="#" role="button">Directions</a>
+                              <a class="btn btn-primary" href="#" role="button">More Information</a>
+                              <a class="btn btn-primary" href="#" role="button">Request appointment</a>
+                            </div>
+                            <hr>
+
+                            <!-- Small accordion for vax sites item #6: Rite Aid-->
+                            <div class="card-header-small collapsed" data-toggle="collapse" href="#collapseRiteAid">
+                                <a class="card-title">
+                                    Rite Aid
+                                </a>
+                            </div>
+                            <div id="collapseRiteAid" class="card-body collapse" data-parent="#smallaccordion" >
+                              <p class="font-weight-light m-0">
+                                Rite Aid is providing COVID-19 vaccinations at locations throughout Maryland. To schedule an appointment at a local pharmacy, visit the <a href="https://www.riteaid.com/pharmacy/apt-scheduler" target="_blank" rel="noopener noreferrer"> appointment scheduler</a>. You will be required to verify your eligibility by entering your age, occupation and pre-existing medical conditions. If you qualify, you will be able to select a location and schedule an appointment if there are any currently available.</p><br>
+
+                              <a class="btn btn-primary" href="#" role="button">Directions</a>
+                              <a class="btn btn-primary" href="#" role="button">More Information</a>
+                              <a class="btn btn-primary" href="#" role="button">Request appointment</a>
+                            </div>
+                            <hr>
+
+                            <!-- Small accordion for vax sites item #7: Safeway-->
+                            <div class="card-header-small collapsed" data-toggle="collapse" href="#collapseSafeway">
+                                <a class="card-title">
+                                    Safeway Pharmacy
+                                </a>
+                            </div>
+                            <div id="collapseSafeway" class="card-body collapse" data-parent="#smallaccordion" >
+                              <p class="font-weight-light m-0">
+                                Safeway is offering COVID-19 vaccinations at various locations throughout Maryland. Visit <a href="https://www.mhealthappointments.com/covidappt" target="_blank" rel="noopener noreferrer"> this site</a> and enter your zip code and verify eligibility to see available appointments. </p><br>
+
+                              <a class="btn btn-primary" href="#" role="button">Directions</a>
+                              <a class="btn btn-primary" href="#" role="button">More Information</a>
+                              <a class="btn btn-primary" href="#" role="button">Request appointment</a>
+                            </div>
+                            <hr>
+
+                            <!-- Small accordion for vax sites item #8: Walgreens-->
+                            <div class="card-header-small collapsed" data-toggle="collapse" href="#collapseWalgreens">
+                                <a class="card-title">
+                                    Walgreens
+                                </a>
+                            </div>
+                            <div id="collapseWalgreens" class="card-body collapse" data-parent="#smallaccordion" >
+                              <p class="font-weight-light m-0">
+                                To check the availability of appointments, visit <a href="https://www.walgreens.com/findcare/vaccination/covid-19?ban=covid_vaccine_landing_schedule" target="_blank" rel="noopener noreferrer"> this website</a> and click on “Get Started” at the bottom of the page. You will need to create an account and go through a vaccination screening before you will be able to schedule an appointment.</p><br>
+
+                              <a class="btn btn-primary" href="#" role="button">Directions</a>
+                              <a class="btn btn-primary" href="#" role="button">More Information</a>
+                              <a class="btn btn-primary" href="#" role="button">Request appointment</a>
                             </div>
 
                           </div>
@@ -185,7 +264,7 @@
 
     <div id="county-navbar">
     <br><br/><h2> How to get vaccinated elsewhere in central Maryland: </h2>
-    <p> State officials have provided some flexibility to local leaders to establish vaccine rollout guidelines in their county. As a result, some Maryland counties are in different rollout phases from the state. Below we examine who is eligible for a vaccine in Maryland’s most populous localities as well as other county-specific rules and vaccination locations. If you would like us to add your county to this site, please let us <a href="mailto:amarton@umd.edu" target="_blank" rel="noopener noreferrer">know</a>.</p>
+
     <br/>
   </div>
 
@@ -199,7 +278,7 @@
             <!-- Accordion item 1: Anne Arundel County -->
             <div class="card">
               <div id="headingAACounty" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#AACounty" aria-expanded="false" aria-controls="AACounty" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Anne Arundel County</a></h6>
+                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#AACounty" aria-expanded="false" aria-controls="AACounty" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Anne Arundel County</a></h6>
               </div>
               <div id="AACounty" aria-labelledby="headingAACounty" data-parent="#accordionCounties" class="collapse">
                 <div class="card-body p-5">
@@ -214,7 +293,7 @@
             <!-- Accordion item 2: Baltimore City -->
             <div class="card">
               <div id="headingBaltCity" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#BaltCity" aria-expanded="false" aria-controls="BaltCity" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Baltimore City</a></h6>
+                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#BaltCity" aria-expanded="false" aria-controls="BaltCity" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Baltimore City</a></h6>
               </div>
               <div id="BaltCity" aria-labelledby="headingBaltCity" data-parent="#accordionCounties" class="collapse">
                 <div class="card-body p-5">
@@ -231,7 +310,7 @@
             <!-- Accordion item 3: Baltimore County -->
             <div class="card">
               <div id="headingBaltCounty" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#BaltCounty" aria-expanded="false" aria-controls="BaltCounty" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Baltimore County</a></h6>
+                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#BaltCounty" aria-expanded="false" aria-controls="BaltCounty" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Baltimore County</a></h6>
               </div>
               <div id="BaltCounty" aria-labelledby="headingBaltCounty" data-parent="#accordionCounties" class="collapse">
                 <div class="card-body p-5">
@@ -245,7 +324,7 @@
             <!-- Accordion item 4: Montgomery County -->
             <div class="card">
               <div id="headingMontCounty" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#MontCounty" aria-expanded="false" aria-controls="MontCounty" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Montgomery County</a></h6>
+                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#MontCounty" aria-expanded="false" aria-controls="MontCounty" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Montgomery County</a></h6>
               </div>
               <div id="MontCounty" aria-labelledby="headingMontCounty" data-parent="#accordionCounties" class="collapse">
                 <div class="card-body p-5">
@@ -267,7 +346,7 @@
             <!-- Accordion item 5: PG County -->
             <div class="card">
               <div id="headingPGCounty" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#PGCounty" aria-expanded="false" aria-controls="PGCounty" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Prince George's County</a></h6>
+                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#PGCounty" aria-expanded="false" aria-controls="PGCounty" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Prince George's County</a></h6>
               </div>
               <div id="PGCounty" aria-labelledby="headingPGCounty" data-parent="#accordionCounties" class="collapse">
                 <div class="card-body p-5">
@@ -289,7 +368,7 @@
 
 
     <div id="faq-navbar">
-    <br><br/><h2> Frequently asked questions about the COVID-19 vaccine rollout in Maryland </h2>
+    <br><br/><h2> Frequently asked questions: </h2>
     <br/>
   </div>
 
@@ -303,7 +382,7 @@
             <!-- Accordion item 1: FAQ 1 -->
             <div class="card">
               <div id="headingFAQ1" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#FAQ1" aria-expanded="false" aria-controls="FAQ1" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #1</a></h6>
+                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#FAQ1" aria-expanded="false" aria-controls="FAQ1" class="d-block position-relative text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #1</a></h6>
               </div>
               <div id="FAQ1" aria-labelledby="headingFAQ1" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
@@ -315,7 +394,7 @@
             <!-- Accordion item 2: faq2 -->
             <div class="card">
               <div id="headingFAQ2" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#FAQ2" aria-expanded="false" aria-controls="FAQ2" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #2</a></h6>
+                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#FAQ2" aria-expanded="false" aria-controls="FAQ2" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #2</a></h6>
               </div>
               <div id="FAQ2" aria-labelledby="headingFAQ2" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
@@ -327,7 +406,7 @@
             <!-- Accordion item 3 -->
             <div class="card">
               <div id="headingFAQ3" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#FAQ3" aria-expanded="false" aria-controls="FAQ3" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #3</a></h6>
+                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#FAQ3" aria-expanded="false" aria-controls="FAQ3" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #3</a></h6>
               </div>
               <div id="FAQ3" aria-labelledby="headingFAQ3" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
@@ -339,7 +418,7 @@
             <!-- Accordion item 4 -->
             <div class="card">
               <div id="headingFAQ4" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#FAQ4" aria-expanded="false" aria-controls="FAQ4" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #4</a></h6>
+                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#FAQ4" aria-expanded="false" aria-controls="FAQ4" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #4</a></h6>
               </div>
               <div id="FAQ4" aria-labelledby="headingFAQ4" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
@@ -351,7 +430,7 @@
             <!-- Accordion item 5 -->
             <div class="card">
               <div id="headingFAQ5" class="card-header bg-white shadow-sm border-0">
-                <h6 class="mb-0 font-weight-bold"><a href="#" data-toggle="collapse" data-target="#FAQ5" aria-expanded="false" aria-controls="FAQ5" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #5</a></h6>
+                <h6 class="mb-0 font-weight-bold"><a data-toggle="collapse" data-target="#FAQ5" aria-expanded="false" aria-controls="FAQ5" class="d-block position-relative collapsed text-dark text-uppercase collapsible-link py-2">Collapsible Group Item #5</a></h6>
               </div>
               <div id="FAQ5" aria-labelledby="headingFAQ5" data-parent="#accordionFAQ" class="collapse">
                 <div class="card-body p-5">
@@ -367,7 +446,7 @@
 
     <!-- ACCORDION END -->
     <div id="vax-data-navbar">
-    <br><br/><h2> Vaccination Data (MOCK) </h2>
+    <br><br/><h2> Vaccination Data: </h2>
     <br/>
     </div>
 
