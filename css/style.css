@@ -6,6 +6,10 @@ font-weight: 400;
 font-size: 20px;
 }
 
+p.credits {
+  font-size:.75em;
+}
+
 /* HEADLINE */
 /* Extra-Bold 800 Poppins */
 h1 {
@@ -37,6 +41,13 @@ font-style: italic;
 font-size: 13px;
 }
 
+h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size:1em;
+}
+
+
 
 /* ACCORDIONS */
 
@@ -58,6 +69,7 @@ font-weight: 400;
 /* Nav Bar and footer styles */
 .nav-item.nav-link{
   font-family: 'Poppins', sans-serif !important;
+  text-decoration:none;
 }
 
 #logo {
@@ -96,6 +108,10 @@ font-weight: 400;
   font-family: 'Poppins,' sans-serif;
 }
 
+a.btn.btn-primary {
+  text-decoration:none;
+}
+
 /* STYLES FOR ACCORDIONS */
 
 .card {
@@ -125,6 +141,7 @@ font-weight: 400;
 a.card-title {
    font-family: Poppins; /* we have questions... */
    font-size: 18px;
+   font-weight:300;
  }
 
 .card-header-small.collapsed {
