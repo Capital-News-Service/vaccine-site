@@ -16,7 +16,7 @@ h1 {
 font-family: 'Poppins', sans-serif;
 font-weight: 800;
 text-align: center;
-font-size: 7.5em;
+font-size: 6em;
 }
 
 /* TRANSITIONS BETWEEN ACCORDIONS */
@@ -44,7 +44,6 @@ font-size: 1.25em;
 
 h5 {
   font-family: 'Poppins', sans-serif;
-  font-style: italic;
   font-size:.95em;
 }
 
@@ -334,5 +333,11 @@ a:active {
   h1{
     font-size:3em;
   }
-
 }
+
+/* this is very wrong we are working on it */
+@media screen and (max-width: 500px) {
+  div.hide {
+    display: none;
+  }
+  }
