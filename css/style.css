@@ -105,21 +105,16 @@ font-weight: 400;
 .button {
   color: #990000;
   font-family: 'Poppins,' sans-serif;
-  padding: 1em;
-  border: 1em;
 }
 
 .btn btn-primary {
   color: #990000;
   font-family: 'Poppins,' sans-serif;
-  padding: 1em;
-  border: 1em;
+  margin: 2em;
 }
 
 a.btn.btn-primary {
   text-decoration:none;
-  padding: 1em;
-  border: 1em;
 }
 
 /* STYLES FOR ACCORDIONS */
