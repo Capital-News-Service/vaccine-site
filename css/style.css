@@ -32,19 +32,20 @@ font-size: 2em;
 /* Semi-Bold 600 */
 h3 {
 font-family: 'Poppins', sans-serif;
-font-weight: 600;
+font-weight: 1.5em;
 }
 
 /* UPDATED LAST - probably change from outside of headline */
 h4 {
+font-family: 'Poppins', sans-serif;
 font-style: italic;
-font-size: 1.5em;
+font-size: 1.25em;
 }
 
 h5 {
   font-family: 'Poppins', sans-serif;
-  font-weight: 600;
-  font-size:1em;
+  font-style: italic;
+  font-size:.95em;
 }
 
 ul {
@@ -104,15 +105,21 @@ font-weight: 400;
 .button {
   color: #990000;
   font-family: 'Poppins,' sans-serif;
+  padding: 1em;
+  border: 1em;
 }
 
 .btn btn-primary {
   color: #990000;
   font-family: 'Poppins,' sans-serif;
+  padding: 1em;
+  border: 1em;
 }
 
 a.btn.btn-primary {
   text-decoration:none;
+  padding: 1em;
+  border: 1em;
 }
 
 /* STYLES FOR ACCORDIONS */
