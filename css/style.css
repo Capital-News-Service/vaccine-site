@@ -110,11 +110,11 @@ font-weight: 400;
 .btn btn-primary {
   color: #990000;
   font-family: 'Poppins,' sans-serif;
-  margin: 2em;
 }
 
 a.btn.btn-primary {
   text-decoration:none;
+  margin-top: 15px;
 }
 
 /* STYLES FOR ACCORDIONS */
