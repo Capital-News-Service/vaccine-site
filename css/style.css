@@ -332,9 +332,13 @@ a:active {
   text-decoration: underline;
 }
 
+
 /*Responsive styling*/
 @media screen and (max-width: 500px){
   div.txthide{
     display: none;
   }
+h1 {
+  font-size:2em;
+}
 }
