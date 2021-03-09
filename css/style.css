@@ -53,6 +53,10 @@ ul {
 }
 
 
+/*Shrink FAQ TEXT FOR BLEED*/
+.faq-text {width:90%;}
+
+
 /* ACCORDIONS */
 
 /* Semi-Bold 600 */
@@ -372,13 +376,6 @@ a:active {
 
 }
 
-
-@media screen and (max-width: 1000px){
-
-  /*Shrink FAQ TEXT FOR BLEED*/
-  .faq-text {width:90%;}
-
-}
 
 
 @media screen and (min-width: 500px){
