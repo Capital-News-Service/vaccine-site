@@ -170,6 +170,10 @@ a.card-title {
   font-family: 'Poppins,' sans-serif !important;
 }
 
+/* useless
+#phase1a {
+  font-weight:800;
+} */
 
 /* County Accordion styles */
 /*AA County header*/
@@ -242,6 +246,11 @@ a.card-title {
 #headingFAQ12.card-header.bg-white.shadow-sm.border-0{
   background-color: #FAE255 !important;
 }
+
+/* saving in case for phases yellow heading -
+#headingphase1a.card-header-small{
+  background-color: #FAE255 !important;
+} */
 
 /* Horizontal line */
 .collapsible-link::before {
