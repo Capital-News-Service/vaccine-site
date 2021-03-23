@@ -113,7 +113,7 @@
                 <div class="card-body p-5">
                   <h4><strong>Who can get vaccinated:</strong><br></h4>
 
-                  <p>On March 23, Maryland will expand vaccination eligibility to Phase 2A, which includes all Marylanders age 60 and over. Governor Larry Hogan said that Maryland will move to Phase 2B on March 31, which includes Marylanders age 16 and over with underlying medical conditions, and to Phase 2C on April 13, which includes Marylanders age 55 and over and an expanded list of essential workers. Governor Hogan said that by April 27, Maryland will make the vaccine available to everyone in the state age 16 and older.</p>
+                  <p>On March 31, 2021, Maryland will move to Phase 2B, which includes Marylanders age 16 and over with underlying medical conditions, and to Phase 2C on April 13, which includes Marylanders age 55 and over and an expanded list of essential workers. Governor Larry Hogan said that by April 27, Maryland will make the vaccine available to everyone in the state age 16 and older.</p>
 
                   <p class="font-weight-light m-0">Maryland is currently in Phase 1C. This means that the following people are eligible to be vaccinated: </p>
                    <br><br>
@@ -138,10 +138,10 @@
                          <li> Continuity of government workers. </li>
                        </ul> </p>
                      </div>
-                     <hr>
+                  <hr>
 
                      <div id="headingphase1b" class="card-header-small collapsed" data-toggle="collapse"  href="#collapsephase1b">
-                         <a class="card-title">
+                         <a class="card-title" id="phase1b">
                              <bold> PHASE 1B </bold>
                          </a>
                      </div>
@@ -158,7 +158,7 @@
                     <hr>
 
                     <div id="headingphase1c" class="card-header-small collapsed" data-toggle="collapse"  href="#collapsephase1c">
-                        <a class="card-title">
+                        <a class="card-title" id="phase1c">
                           PHASE 1C
                         </a>
                     </div>
@@ -178,9 +178,11 @@
                       </ul> </p>
                     </div>
                    <hr>
+                   <p> The following groups are not yet eligible for the vaccine, but will be soon based on the Maryland state governement timeline. Click through the remaining groups to see who is eligible when.</p>
+                   <hr>
 
                    <div id="headingphase2a" class="card-header-small collapsed" data-toggle="collapse"  href="#collapsephase2a">
-                       <a class="card-title">
+                       <a class="card-title" id="phase2a">
                         PHASE 2A
                        </a>
                    </div>
@@ -192,7 +194,7 @@
                    <hr>
 
                    <div id="headingphase2b" class="card-header-small collapsed" data-toggle="collapse"  href="#collapsephase2b">
-                       <a class="card-title">
+                       <a class="card-title" id="phase2b">
                          PHASE 2B
                        </a>
                    </div>
@@ -204,7 +206,7 @@
                    <hr>
 
                    <div id="headingphase2c" class="card-header-small collapsed" data-toggle="collapse"  href="#collapsephase2c">
-                       <a class="card-title">
+                       <a class="card-title" id="phase2c">
                            PHASE 2C
                        </a>
                    </div>
@@ -218,7 +220,7 @@
                    <hr>
 
                    <div id="headingphase3" class="card-header-small collapsed" data-toggle="collapse"  href="#collapsephase3">
-                       <a class="card-title">
+                       <a class="card-title" id="phase3">
                            PHASE 3
                        </a>
                    </div>
@@ -241,6 +243,9 @@
 
                   <p> Visit Maryland’s <a href="https://coronavirus.maryland.gov/pages/vaccine" target="_blank" rel="noopener noreferrer"> vaccination clinic locator</a> for more information and to see new sites as they are added. Or visit the <a href="https://vaccinefinder.org/search/" target="_blank" rel="noopener noreferrer"> CDC’s Vaccine Finder</a> and enter your zip code to find COVID-19 vaccination locations near you. The <a href="https://www.facebook.com/groups/462938984877900/" target="_blank" rel="noopener noreferrer">Maryland Vaccine Hunters</a> Facebook group also maintains a spreadsheet of locations and advice, <a href="https://docs.google.com/spreadsheets/u/1/d/e/2PACX-1vS2roAdufzrNZ8f2Cny_8_SVmnLaT3WS19_y31cbAkx-fPVfYO6Upvyo3ZkQBrov6G9ZGPhmp46I1zY/pubhtml?fbclid=IwAR2ofuxj2e_z_6GjZf65Z-QcSFkPNwV8Y3PlCDDIORAPoKnSpzGMQrhU5o4" target="_blank" rel="noopener noreferrer">located here.</a> All locations require appointments and/or pre-registration.</p>
 
+                  <h4><strong>Preregistration:</strong><br></h4>
+                  <p>If you are eligible for a vaccine under Phase 2A, you can use Maryland OneStop to preregister for an appointment at a mass vaccination site.</p>
+                  <p>First, create an account at <a href="https://onestop.md.gov/preregistration" target="_blank" rel="noopener noreferrer">OneStop</a>, verify your email address and log in. Click on the “Pre-Register” button and fill out the form with your eligibility and preferred contact information. Select your two mass vaccination site preferences and submit the form. Based on your eligibility and available vaccines, OneStop will contact you through your preferred contact method with instructions on how to schedule an appointment.</p>
 
 
                   <br><h4><strong>Where to get vaccinated:</strong></h4>
@@ -314,7 +319,22 @@
                               <a class="btn btn-primary" href="https://www.google.com/maps/place/11765+St+Linus+Dr,+Waldorf,+MD+20602/@38.5628618,-76.9062171,17z/data=!3m1!4b1!4m5!3m4!1s0x89b70a17ce81e619:0xc4a0e14aa3abfa6f!8m2!3d38.5628576!4d-76.9040284" target="_blank" rel="noopener noreferrer" role="button">Directions</a>
                             </div>
                             <hr>
+                            <!-- Small accordion for vax sites item: hagerstown premium outlets-->
+                            <div class="card-header-small collapsed" data-toggle="collapse" href="#collapsehagerstown">
+                                <a class="card-title">
+                                    Hagerstown Premium Outlets
+                                </a>
+                            </div>
+                            <div id="collapsehagerstown" class="card-body collapse" data-parent="#smallaccordion" >
+                              <p class="font-weight-light m-0">
+                                Hagerstown Premium Outlets is serving as a COVID-19 mass vaccination location. To check the availability of appointments, visit <a href="http://massvax.maryland.gov/" target="_blank" rel="noopener noreferrer"> this site</a>. You will be asked to enter your eligibility information and zip code. If appointments are currently available at this location, you can choose and book a time slot for your first and second vaccination.<br>
 
+                              <br><p><strong>Phone:</strong> <a href="tel:18556346829"><i class="fas fa-phone"></i> 1-855-634-6829</a></p>
+                              <a class="btn btn-primary" href="https://massvax.maryland.gov/" target="_blank" rel="noopener noreferrer" role="button">Request appointment</a>
+                              <a class="btn btn-primary" href="https://coronavirus.maryland.gov/pages/vaccine" target="_blank" rel="noopener noreferrer" role="button">Preregister</a>
+                              <a class="btn btn-primary" href="https://www.google.com/maps/search/495+Premium+Outlet+Blvd,+Hagerstown,+MD+21740/@39.6076702,-77.7360709,17z/data=!3m1!4b1" target="_blank" rel="noopener noreferrer" role="button">Directions</a>
+                            </div>
+                            <hr>
 
                             <!-- Small accordion for vax sites item #4: CVS-->
                             <div class="card-header-small collapsed" data-toggle="collapse" href="#collapseCVS">
@@ -693,7 +713,7 @@
                   <p class="font-weight-light m-0">
 
 
-                    Baltimore County is currently giving vaccines to those that qualify for Phase 1A and 1B. To find out what priority group you’re in, visit <a href="https://covidlink.maryland.gov/content/vaccine/" target="_blank" rel="noopener noreferrer">this site.</a> To register for the vaccine from Baltimore County, complete <a href="https://survey123.arcgis.com/share/c268c6f40463480baae69154b7845ffd" target="_blank" rel="noopener noreferrer">this form</a> and wait to be contacted by county staff for instructions on how to make an appointment.</p>
+                    Baltimore County is currently giving vaccines to those that qualify for Phase 1A, 1B and 1C. To find out what priority group you’re in, visit <a href="https://covidlink.maryland.gov/content/vaccine/" target="_blank" rel="noopener noreferrer">this site.</a> To register for the vaccine from Baltimore County, complete <a href="https://survey123.arcgis.com/share/c268c6f40463480baae69154b7845ffd" target="_blank" rel="noopener noreferrer">this form</a> and wait to be contacted by county staff for instructions on how to make an appointment.</p>
                   <br>
                   <p> Please visit the <a href="https://coronavirusvaccineoutreach-bc-gis.hub.arcgis.com/#request-registration" target="_blank"  rel="noopener noreferrer">Baltimore County COVID-19 Vaccine Hub</a> or email <a href="mailto:COVIDvax@baltimorecountymd.gov" target="_blank" rel="noopener noreferrer">COVIDvax@baltimorecountymd.gov</a> for more information. Call <a href="tel:311">311</a> or the COVID-19 hotline at <a href="tel:4108873816">410-887-3816</a> for assistance requesting a vaccination appointment.</p>
 

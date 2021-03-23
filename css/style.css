@@ -246,6 +246,18 @@ a.card-title {
 #headingFAQ12.card-header.bg-white.shadow-sm.border-0{
   background-color: #FAE255 !important;
 }
+/* can use to bold if we want
+#phase1a.card-title{
+  font-weight: 800;
+}
+
+#phase1b.card-title{
+  font-weight: 800;
+}
+
+#phase1c.card-title{
+  font-weight: 800;
+} */
 
 /* saving in case for phases yellow heading -
 #headingphase1a.card-header-small{
