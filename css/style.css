@@ -170,6 +170,34 @@ a.card-title {
   font-family: 'Poppins,' sans-serif !important;
 }
 
+#phase1a.card-title {
+  font-weight: 800;
+}
+
+#phase1b.card-title {
+  font-weight: 800;
+}
+
+#phase1c.card-title {
+  font-weight: 800;
+}
+
+#phase2a.card-title {
+  font-weight: 800;
+}
+
+#phase2b.card-title {
+  font-weight: 800;
+}
+
+#phase2c.card-title {
+  font-weight: 800;
+}
+
+#phase3.card-title {
+  font-weight: 800;
+}
+
 /* useless
 #phase1a {
   font-weight:800;
